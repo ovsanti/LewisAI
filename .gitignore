@@ -1,0 +1,45 @@
+# Virtual environment folders
+.venv/
+venv/
+env/
+.env/
+.virtualenv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Pipenv / Poetry
+poetry.lock
+Pipfile.lock
+
+# Bot-specific files (ADD THESE)
+player_data.json
+*.json
+!requirements.json
+
+# Environment variables / Bot tokens (IMPORTANT!)
+.env
+config.py
+token.txt
+
+# Database files (if you add them later)
+*.db
+*.sqlite
+*.sqlite3
+
+# Windows
+Thumbs.db
+desktop.ini
